@@ -1,43 +1,73 @@
-# Fyle Frontend Challenge
+Certainly! Here's the updated README file with the correct repository link:
 
-## Who is this for?
+---
 
-This challenge is meant for candidates who wish to intern at Fyle and work with our engineering team. The candidate should be able to commit to at least 6 months of dedicated time for internship.
+# Github Repositories Listing App
 
-## Why work at Fyle?
+This Angular single-page application (SPA) allows users to search for Github repositories by username and view the public repositories of the specified user.
 
-Fyle is a fast-growing Expense Management SaaS product. We are ~40 strong engineering team at the moment. 
+## Features
 
-We are an extremely transparent organization. Check out our [careers page](https://careers.fylehq.com) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://www.glassdoor.co.in/Reviews/Fyle-Reviews-E1723235.htm). You can read stories from our teammates [here](https://stories.fylehq.com).
+- Search for Github repositories by username
+- Display the public repositories of the specified user
+- Pagination for server-side pagination of repositories
+- Skeleton loader for indicating loading state
+- Zero state display when no repositories are found
+- Fully responsive design
 
-## Challenge outline
+## Prerequisites
 
-This challenge involves implementing application using github api. 
-
-The services that you need to use are already implemented - check out ApiService.
-
-You can see details of this challenge [here](https://fyleuniverse.notion.site/fyleuniverse/Fyle-Frontend-development-challenge-cb5085e5e0864e769e7b98c694400aaa)
-
-__Note__ - This challenge is in angular. We work on angular frameworks & after you join we expect the same from you. Hence it is required to complete this assignement in angular itself.
-
-## What happens next?
-
-You will hear back within 48 hours from us via email.
+- Node.js and npm installed on your machine
+- Angular CLI installed globally (`npm install -g @angular/cli`)
 
 ## Installation
 
-1. Fork this repository to your github account.
-2. Clone the forked repository and proceed with steps mentioned below.
+1. Clone the repository to your local machine:
 
-### Install requirements
-* Install angular cli [Ref](https://angular.io/cli)
-* `npm install` in this repository 
+```
+git clone https://github.com/akaditya394/list-repos-angular.git
+```
 
-## Development server
+2. Navigate to the project directory:
 
-Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+```
+cd list-repos-angular
+```
 
-## Further help
+3. Install dependencies:
 
-Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
-Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+```
+npm install
+```
+
+## Usage
+
+1. Start the development server:
+
+```
+ng serve
+```
+
+2. Open your browser and visit `http://localhost:4200` to view the app.
+
+## Running Tests
+
+This project contains unit tests for one component and one service with 100% code coverage.
+
+1. Run the tests:
+
+```
+ng test
+```
+
+2. View the test coverage report in the terminal or open the generated `coverage` folder to view it in a browser.
+
+## Hosting
+
+You can host the SPA on any cloud service provider of your choice (e.g., Heroku, Netlify, GitHub Pages). Follow the provider's instructions to deploy the app.
+
+## API Documentation
+
+For more information on the GitHub REST API used in this project, refer to the [official documentation](https://docs.github.com/en/rest/reference).
+
+.
