@@ -1,7 +1,3 @@
-Certainly! Here's the updated README file with the correct repository link:
-
----
-
 # Github Repositories Listing App
 
 This Angular single-page application (SPA) allows users to search for Github repositories by username and view the public repositories of the specified user.
