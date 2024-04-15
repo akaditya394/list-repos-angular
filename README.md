@@ -62,12 +62,6 @@ ng test
 
 2. View the test coverage report in the terminal or open the generated `coverage` folder to view it in a browser.
 
-## Hosting
-
-You can host the SPA on any cloud service provider of your choice (e.g., Heroku, Netlify, GitHub Pages). Follow the provider's instructions to deploy the app.
-
 ## API Documentation
 
 For more information on the GitHub REST API used in this project, refer to the [official documentation](https://docs.github.com/en/rest/reference).
-
-.
