@@ -1,0 +1,26 @@
+<div
+  class="repo-details bg-gray-100 p-4 mb-8 rounded shadow-md"
+  *ngIf="!isLoading; else loadingSkeleton"
+>
+  <h2 class="text-xl font-semibold mb-2">{{ repo.name }}</h2>
+  <p class="text-gray-700 mb-4">{{ repo.description }}</p>
+  <div class="topics italic" *ngIf="repo.topics.length > 0">
+    Topics:
+    <span
+      *ngFor="let topic of repo.topics"
+      class="inline-block mx-1 my-1 px-2 py-1 bg-gray-300 rounded text-sm text-gray-700"
+      >{{ topic }}</span
+    >
+  </div>
+</div>
+
+<ng-template #loadingSkeleton>
+  <div class="repo-details bg-gray-100 p-4 mb-8 rounded shadow-md">
+    <div class="animate-pulse">
+      <div class="h-6 bg-gray-300 rounded mb-2"></div>
+      <div class="h-4 bg-gray-300 rounded mb-2"></div>
+      <div class="h-4 bg-gray-300 rounded w-3/4"></div>
+      <div class="h-4 bg-gray-300 rounded w-1/2"></div>
+    </div>
+  </div>
+</ng-template>
